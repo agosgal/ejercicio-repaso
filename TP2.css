@@ -1,0 +1,141 @@
+html, body {
+    margin:0px;
+}
+
+.header {
+    background: #2E2E2D;
+}
+
+.header, .footer {
+    width: 100%;
+    color: #E44D26;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header .logo img,
+.imagen-principal img {
+    width: 100%;
+    height: auto
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none
+
+}
+
+.nav ul li {
+    margin-left: 10px
+}
+
+.imagen-principal {
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.que-somos {
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px
+}
+
+.logo-somos {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-somos img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-somos {
+    width: 600px
+}
+
+.titulo {
+    color: #E44D26;
+    font-size: 40px;
+
+}
+
+.log-sociales img {
+    width: 30px;
+    height: auto;
+}
+
+.nosotras {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.persona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.avatar {
+    
+}
+
+.descripcion-persona { 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color: #E44D26
+}
+
+
+.avatar img {
+    width: 150px;
+    height: 150px
+}
+
+.footer {
+    height: 50px;
+    background: #2E2E2D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.iconos img{
+    width: 20px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+
+.imagen-principal {
+    width: 100%;
+}
+
+.logo-somos, .log-sociales {
+    display: none
+}
+
+}
