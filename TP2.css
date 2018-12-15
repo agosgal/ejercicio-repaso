@@ -128,6 +128,10 @@ html, body {
     height: 20px;
 }
 
+.hamburguesa {
+    display:none
+}
+
 @media only screen and (max-width: 480px) {
 
 .imagen-principal {
@@ -137,5 +141,78 @@ html, body {
 .logo-somos, .log-sociales {
     display: none
 }
+
+.hamburguesa {
+    display:block
+}
+
+.nav ul {
+    display: none
+}
+
+.nav:hover ul{
+    display: flex;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav ul{
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    background: white;
+    padding: 0px
+}
+
+.nav ul li {
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.nosotras {
+    height: 100%;
+    flex-direction: column;
+}
+
+.descripcion-persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    color: black
+}
+
+.nombre-persona {
+    position: absolute;
+    top: -180px;
+    background: lightgray;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.nombre-puesto {
+    position: absolute;
+    top: -40px;
+    background: lightgray;
+    border-radius: 5px;
+    padding: 7px
+}
+
+.footer {
+    height: 80px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px
+}
+
+.iconos {
+    margin-top: 10px
+}
+
 
 }
